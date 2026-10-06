@@ -14,7 +14,7 @@ These terms cover the Personal Finance Tool and the Journal. Both are personal t
 ## Access
 
 - **Personal Finance Tool:** bank account access is obtained via the Enable Banking PSD2 AISP interface with read-only permissions. No payment initiation or write operations of any kind are performed.
-- **Journal:** Google Health, Yazio and Hevy data is accessed with read-only permissions. Nothing is written back to those services.
+- **Journal:** Google Health, Gmail, Google Calendar, Yazio and Hevy data is accessed with read-only permissions. Nothing is written back to those services: no email is sent or deleted and no calendar event is created or changed.
 
 ## Data
 

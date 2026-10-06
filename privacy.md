@@ -12,11 +12,11 @@ title: Privacy Policy – Personal Tools
 This policy covers the personal applications listed below. They are built and used exclusively by their owner (Andris Kostiks) for his own records. They are not commercial products and have no users other than the owner.
 
 - **Personal Finance Tool** — aggregates the owner's bank accounts and transactions.
-- **Journal** — the owner's private journal, enriched with his own health and fitness data.
+- **Journal** — the owner's private journal, enriched with his own health, fitness, email and calendar data.
 
 ## Data collected
 
-All access is **read-only**. No application can make payments, send messages or change data at its source.
+All access is **read-only**. No application can make payments, send or delete email, create or change calendar events, or change data at its source in any other way.
 
 **Personal Finance Tool** (via the Enable Banking PSD2 AISP interface):
 
@@ -28,12 +28,14 @@ All access is **read-only**. No application can make payments, send messages or 
 
 - Entries, photos and voice notes the owner writes or records himself
 - From the **Google Health API** (read-only scopes for activity and fitness, sleep, and health metrics and measurements): steps, workouts, sleep sessions, heart rate, weight and similar measurements
+- From **Gmail** (read-only scope `gmail.readonly`): the owner's email messages, so the journal can mention what is waiting for him and remember dates mentioned in mail
+- From **Google Calendar** (read-only scope `calendar.readonly`): the owner's calendar events, so the journal's calendar matches his real one
 - From the owner's own Yazio and Hevy accounts: logged meals and workouts
 - OAuth tokens required to maintain these connections
 
 ## How data is used
 
-Data is used only to show the owner his own finances, health and history, and to let a language model that runs **on the owner's own hardware** summarize it and answer his questions. Data is not used for advertising, is not sold, and is not used to train any model.
+Data is used only to show the owner his own finances, health, mail, calendar and history, and to let a language model that runs **on the owner's own hardware** summarize it and answer his questions. Data is not used for advertising, is not sold, and is not used to train any model.
 
 ## How data is stored
 

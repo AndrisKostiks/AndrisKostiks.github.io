@@ -7,11 +7,14 @@ title: Andris Kostiks
 
 Personal projects and their associated documents.
 
-## Projects
+## Personal tools
 
-### Personal Finance Tool
+Private, single-user tools that run on my own hardware with read-only access to my own data.
 
-A local-first finance aggregator pulling transaction data from Latvian banks via PSD2 AISP.
+- **Personal Finance Tool** — a local-first finance aggregator pulling my transaction data from Latvian banks via PSD2 AISP.
+- **Journal** — a private journal that reads my own health and fitness data (Google Health, Yazio, Hevy).
+
+Both are covered by one set of documents:
 
 - [Privacy Policy](privacy)
 - [Terms of Service](terms)
